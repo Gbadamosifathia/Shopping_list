@@ -17,7 +17,7 @@ def main():
             print(item, "has been added to the list")
     
         elif choice == '2':
-            item= input("Which item do you want to remove from your list")
+            item= input("Which item do you want to remove from your list: ")
             if item in shopping_list:
                 shopping_list.remove(item)
                 print(item, "Successfully removed")
